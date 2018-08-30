@@ -1,0 +1,28 @@
+{
+  "name": "crm-backend",
+  "version": "1.0.0",
+  "description": "A small backend I made with the help of a tutorial to learn about creating RESTful APIs with Node, Express, MongoDB and Postman",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrisKamau/crm-backend.git"
+  },
+  "author": "Kris Kamau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KrisKamau/crm-backend/issues"
+  },
+  "homepage": "https://github.com/KrisKamau/crm-backend#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.10",
+    "nodemon": "^1.18.4"
+  }
+}
